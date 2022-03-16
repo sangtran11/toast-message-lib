@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Toast Message</title>
+  </head>
+  <body>
+    <div>
+      <div id="toast">
+        <!-- Success -->
+        <!-- <div class="toast toast--success">
+          <div class="toast__icon">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <div class="toast__body">
+            <h3 class="toast__title">Success</h3>
+            <p class="toast__msg">message Lorem ipsum aka lipsum rego</p>
+          </div>
+          <div class="toast__close">
+            <i class="fas fa-times"></i>
+          </div>
+        </div> -->
+      </div>
+      <div>
+        <div onclick="showSuccessToast()" class="btn btn--success">Success Toast</div>
+        <div onclick="showErrorToast()" class="btn btn--danger">Error Toast</div>
+      </div>
+      <!-- Error -->
+      <!-- <div class="toast toast--error">
+        <div class="toast__icon">
+          <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="toast__body">
+          <h3 class="toast__title">Error</h3>
+          <p class="toast__msg">message Lorem ipsum aka lipsum rego</p>
+        </div>
+        <div class="toast__close">
+          <i class="fas fa-times"></i>
+        </div>
+      </div> -->
+      <!-- Info -->
+      <!-- <div class="toast toast--info">
+        <div class="toast__icon">
+          <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="toast__body">
+          <h3 class="toast__title">Info</h3>
+          <p class="toast__msg">message Lorem ipsum aka lipsum rego</p>
+        </div>
+        <div class="toast__close">
+          <i class="fas fa-times"></i>
+        </div>
+      </div> -->
+      <!-- Warning -->
+      <!-- <div class="toast toast--warning">
+        <div class="toast__icon">
+          <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="toast__body">
+          <h3 class="toast__title">Warning</h3>
+          <p class="toast__msg">message Lorem ipsum aka lipsum rego</p>
+        </div>
+        <div class="toast__close">
+          <i class="fas fa-times"></i>
+        </div>
+      </div> -->
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
